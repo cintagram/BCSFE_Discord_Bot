@@ -11,10 +11,7 @@ Please DONT sell this bot or pretend as you are the developer.
 
 
 ## Requirements
-bcsfe-discord
-pandas
-discord
-discord.py
+pip install bcsfe-discord pandas discord discord.py
 
 ## Setup
 1. Create <bc_saves> directory.

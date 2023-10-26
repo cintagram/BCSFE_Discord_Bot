@@ -14,7 +14,7 @@ Please DONT sell this bot or pretend as you are the developer.
 pip install bcsfe-discord pandas discord discord.py
 
 ## Setup
-1. Create <bc_saves> directory.
+1. Create 'bc_saves' directory.
 2. install modules with pip.
 3. Put your bot's token and activate all Intents settings(Located in Discord Application Panel Bot Category).
 4. Change the channel ID in line 133.

@@ -1,8 +1,12 @@
 # BCSFE_Discord_Bot
 bcsfe for discord bot.
+
 Dev: Fieryhenry & CintagramABP
+
 Language: Korean
+
 Based on BCSFE_Python 2.7.2.3
+
 Please DONT sell this bot or pretend as you are the developer.
 
 

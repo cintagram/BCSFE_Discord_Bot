@@ -1,4 +1,6 @@
 # BCSFE_Discord_Bot
+Developing Version 2!!
+
 bcsfe for discord bot.
 
 Dev: Fieryhenry & CintagramABP

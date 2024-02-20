@@ -1,4 +1,7 @@
 # BCSFE_Discord_Bot
+
+# fixed bot sending message infinitely but i don’t have plan to make this more since current code is really fucked up so wait for v2 bruh
+
 Developing Version 2!!
 
 bcsfe for discord bot.

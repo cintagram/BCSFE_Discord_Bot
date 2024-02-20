@@ -181,7 +181,7 @@ async def start1(ctx, userid):
 
 				
 				now = datetime.datetime.now()
-				savetime = str(now).split(".")[0]
+				savetime = str(now).split(".")[0].replace(":", "_")
 				#path = BCSFE_Python.helper.set_save_path(".\\SAVE_DATA{}".format(num))
 				BCSFE_Python.helper.set_save_path("./bc_saves/{}/SD_{}".format(userid, savetime))
 				#config_manager.get_config_value_category("EDITOR", "SHOW_CATEGORIES")
@@ -384,7 +384,7 @@ async def mainmenu(ctx, save_stats, userid):
 		edits.save_management.save.save_save(save_stats)
 		
 		await ctx.send("**BC Save Editor**```1. 세이브 관리\n2. 아이템\n3. 가마토토 / 오토토(개발중)\n4. 캐릭터\n5. 스테이지 / 보물\n6. 문의 코드 / 토큰 / 계정\n7. 기타```")
-		def check(m): return True
+		#def check(m): return True
 		msg = await bot.wait_for('message', check=check)
 		if msg.content == "1":
 			await ctx.send("**BC Save Editor**```0. 뒤로가기\n1. 세이브 업로드 & 코드받기\n2. 세이브데이터를 JSON형식으로 변환 & 다운로드```")
